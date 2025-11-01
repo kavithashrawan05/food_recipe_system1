@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Paneer Butter Masala",
+    "ingredients": ["Paneer", "Butter", "Tomato", "Cream", "Spices"],
+    "steps": ["Heat butter", "Add tomato puree", "Add spices", "Add paneer", "Simmer with cream"],
+      "image": "/static/images/paneer.jpg"
+  },
+  {
+    "name": "Veg Biryani",
+    "ingredients": ["Rice", "Mixed Veggies", "Spices", "Yogurt"],
+    "steps": ["Cook rice", "Prepare masala", "Layer and cook", "Serve hot"],
+      "image":  "/static/images/veg biryani.jpg"
+  },
+  {
+    "name": "Masala Dosa",
+    "ingredients": ["Rice", "Urad Dal", "Potato", "Onion", "Spices"],
+    "steps": ["Make batter", "Prepare potato filling", "Cook dosa", "Serve with chutney"],
+      "images":  "/static/images/masala dosa.jpg"
+  },
+  {
+    "name": "Chole Bhature",
+    "ingredients": ["Chickpeas", "Flour", "Spices", "Onion", "Tomato"],
+    "steps": ["Boil chickpeas", "Make masala", "Prepare dough", "Fry bhature", "Serve hot"],
+      "images":  "/static/images/chole.jpg"
+  }
+]

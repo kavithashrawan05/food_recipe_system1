@@ -1,0 +1,22 @@
+<body>
+    <h1>🍽️ Delicious Recipes</h1>
+
+    <form method="GET" action="/">
+        <input type="text" name="search" placeholder="Search recipe..." />
+        <button type="submit">Search</button>
+    </form>
+
+    {% for recipe in recipes %}
+        <div class="card">
+            <h2>{{ recipe.name }}</h2>
+            <p><strong>Ingredients:</strong> {{ recipe.ingredients | join(', ') }}</p>
+            <p><strong>Steps:</strong></p>
+            <ol>
+                {% for step in recipe.steps %}
+                    <li>{{ step }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+    <a href="/download" class="btn">📥 Download All Recipes</a>
+    {% endfor %}
+</body>
